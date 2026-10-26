@@ -1,0 +1,5 @@
+# Install a compatible torch build first; CPU torch already exists in .venv-training.
+transformers>=4.45,<5
+scipy>=1.13,<2
+soundfile>=0.12,<1
+safetensors>=0.4,<1

@@ -1,0 +1,3 @@
+# Install torch for your CPU/CUDA platform from https://pytorch.org/get-started/locally/
+Pillow>=10.4,<13
+numpy>=1.26,<3

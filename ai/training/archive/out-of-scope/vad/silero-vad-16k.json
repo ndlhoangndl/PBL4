@@ -1,0 +1,16 @@
+{
+  "task": "silero_vad",
+  "sample_rate": 16000,
+  "updated_component": "official VADDecoderRNNJIT only",
+  "frozen_components": ["STFT", "encoder"],
+  "learning_rate": 0.0005,
+  "epochs": 10,
+  "batch_size": 8,
+  "max_length_sec": 8,
+  "noise_loss": 0.5,
+  "augmentation_probability": 0.2,
+  "seed": 42,
+  "selection_metric": "maximum validation ROC-AUC",
+  "requires_compatible_torchscript_checkpoint": true,
+  "note": "Set the exact upstream source SHA and checkpoint path at run time. This config is not a training result."
+}

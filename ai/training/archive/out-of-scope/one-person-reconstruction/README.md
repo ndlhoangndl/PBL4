@@ -1,0 +1,1 @@
+Archived single-person face autoencoder experiment. It reconstructs face crops and is not an identity detector/verifier. The active face plan is detector + five landmarks, identity embedding, and anti-spoof. Original source, report, test, split metadata, and checkpoint are retained here as historical evidence. The archived trainer is not an active CLI entry point.

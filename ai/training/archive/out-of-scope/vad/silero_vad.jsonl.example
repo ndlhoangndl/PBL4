@@ -1,0 +1,1 @@
+{"sample_id":"vad-0001","speaker_id":"speaker-001","session_id":"audio-session-01","device_id":"mic-module-01","audio_path":"audio/speaker-001/otp-0001.wav","sample_rate":16000,"channels":1,"duration_sec":2.45,"speech_segments":[{"start_sec":0.18,"end_sec":2.12}],"source_id":"vad-0001"}

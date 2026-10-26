@@ -1,0 +1,2 @@
+{"sample_id":"fd-0001","subject_id":"person-001","session_id":"capture-2026-01","device_id":"camera-01","image_path":"images/person-001/front.jpg","lighting":"indoor-even","yaw_deg":0.0,"source_id":"fd-0001","bbox_xywh":[120,80,180,220],"landmarks":[[170,145,2],[245,145,2],[208,185,2],[178,235,2],[240,235,2]]}
+{"sample_id":"fd-0002","subject_id":null,"session_id":"capture-2026-01","device_id":"camera-01","image_path":"images/background/no-face.jpg","image_width":640,"image_height":480,"no_face":true,"source_id":"fd-0002","lighting":"indoor-even"}

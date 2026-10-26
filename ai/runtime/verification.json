@@ -1,0 +1,22 @@
+{
+  "runtime": "Linux, Python 3.12, CPU. Windows installer not executed.",
+  "checks": [
+    "Model startup + UI/API health: PASS",
+    "Actual YuNet/SFace multi-template enrollment + same-face match: PASS",
+    "Fifth slot, occupied slot + atomic failed replacement: PASS",
+    "No-face + corrupt-image rejection: PASS",
+    "Actual audio decoding + Silero VAD; silence returns retry: PASS",
+    "Corrupt-audio rejection: PASS",
+    "Six-digit normalization + leading zero: PASS",
+    "Ambiguous duplicate identity rejected by score margin: PASS",
+    "User deletion: PASS",
+    "Actual Whisper speech inference with official English fixture: PASS"
+  ],
+  "limits": [
+    "Not an accuracy evaluation: brightness variants of one public sample face only",
+    "No 4-person real camera dataset; no multi-angle accuracy measurement",
+    "No Vietnamese OTP audio accuracy measurement",
+    "No liveness model, hardware adapter, OTP backend or lock control",
+    "C# example supplied but not compiled"
+  ]
+}

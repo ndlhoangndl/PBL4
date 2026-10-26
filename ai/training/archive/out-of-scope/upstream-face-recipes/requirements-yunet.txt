@@ -1,0 +1,5 @@
+# Install a CUDA-enabled torch build for the target driver from the official PyTorch selector first.
+opencv-python>=4.10,<5
+numpy>=1.26,<3
+PyYAML>=6,<7
+tensorboard>=2.17,<3

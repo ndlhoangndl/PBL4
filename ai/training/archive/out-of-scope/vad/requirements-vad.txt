@@ -1,0 +1,9 @@
+# Install a CUDA-enabled torch build for the target driver from the official PyTorch selector first.
+torchaudio>=2.4,<3
+audiomentations>=0.33,<0.40
+silero-vad>=6,<7
+omegaconf>=2.3,<3
+scikit-learn>=1.2,<2
+pandas>=2.2,<4
+pyarrow>=17,<25
+tqdm>=4.66,<5

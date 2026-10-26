@@ -1,0 +1,1 @@
+Parked standalone Silero VAD fine-tuning pipeline. SmartDoor only needs speech-to-text for OTP; its existing faster-whisper runtime has optional built-in VAD filtering. No project VAD checkpoint was trained. Restore this folder only if timestamp-level speech segmentation becomes a requirement.

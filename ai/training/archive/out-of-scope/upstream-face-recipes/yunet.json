@@ -1,0 +1,11 @@
+{
+  "task": "face_detection",
+  "requested_architecture": "YuNet with bounding boxes and five facial landmarks",
+  "upstream_trainer": "https://github.com/ShiqiYu/libfacedetection.train",
+  "training_status": "blocked_pending_landmark_capable_trainer_and_compatible_checkpoint",
+  "current_upstream_scope": "bounding box training; no verified five-landmark loss head",
+  "current_application_checkpoint": "OpenCV FaceDetectorYN ONNX; not a compatible PyTorch resume checkpoint",
+  "required_metrics": ["precision", "recall", "F1", "mean IoU", "five-point NME"],
+  "data_contract": "manifests/face_detection.jsonl.example",
+  "export_rule": "Do not replace FaceDetectorYN unless output names, tensor shapes, preprocessing and postprocessing are verified."
+}

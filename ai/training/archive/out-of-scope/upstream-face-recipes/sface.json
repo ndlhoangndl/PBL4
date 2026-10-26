@@ -1,0 +1,11 @@
+{
+  "task": "face_recognition",
+  "upstream_trainer": "https://github.com/zhongyy/SFace",
+  "training_status": "blocked_pending_compatible_pytorch_backbone_and_head_checkpoint",
+  "existing_application_checkpoint": "OpenCV SFace ONNX inference model; not a PyTorch trainer checkpoint",
+  "upstream_architectures": ["IR_50", "IR_101", "MobileFaceNet"],
+  "required_training": "update embedding network parameters using a compatible SFace loss; classifier-only training does not qualify",
+  "required_metrics": ["FAR unknown accept", "FRR known reject", "TAR"],
+  "data_contract": "manifests/face_recognition.jsonl.example",
+  "export_rule": "Re-enroll all registered users and version embeddings after any approved embedding-model change."
+}

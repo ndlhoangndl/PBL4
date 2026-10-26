@@ -1,0 +1,22 @@
+# Local training environment and private/licensed media
+.venv-*/
+__pycache__/
+*.py[cod]
+data/
+datasets/
+raw/
+processed/
+vad-feather*/
+runs/
+experiments/
+cache/
+*.feather
+*.arrow
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.jit
+*.tar
+*.tar.gz

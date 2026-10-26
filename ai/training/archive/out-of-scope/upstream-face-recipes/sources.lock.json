@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "yunet": {
+      "url": "https://github.com/ShiqiYu/libfacedetection.train.git",
+      "ref": "master",
+      "resolved_commit": null,
+      "verified_scope": "Current official repository documents YuNet face detection training and ONNX export. Its current face trainer is box based; it does not provide the required 5-point face landmark loss, so landmark-compatible training/integration remains blocked pending a compatible trainer/checkpoint."
+    },
+    "sface": {
+      "url": "https://github.com/zhongyy/SFace.git",
+      "ref": "cb5ffb3",
+      "resolved_commit": null,
+      "verified_scope": "Official PyTorch training uses IR_50/IR_101/MobileFaceNet with SFaceLoss; requires separate backbone/head checkpoints or starts from scratch. Existing OpenCV SFace ONNX is not a PyTorch checkpoint."
+    },
+    "whisper": {
+      "url": "https://huggingface.co/openai/whisper-base",
+      "ref": "main",
+      "resolved_commit": null,
+      "verified_scope": "Transformers-compatible multilingual PyTorch checkpoint; training adapter records actual resolved Hub revision in experiment metadata."
+    },
+    "antispoof": {
+      "url": "https://github.com/minivision-ai/Silent-Face-Anti-Spoofing.git",
+      "ref": "master",
+      "resolved_commit": null,
+      "verified_scope": "Optional model because current application has no liveness endpoint. Official pipeline expects three classes and multi-scale face patches; verify its source label mapping before training."
+    }
+  }
+}

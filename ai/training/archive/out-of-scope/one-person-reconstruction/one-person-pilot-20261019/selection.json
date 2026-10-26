@@ -1,0 +1,140 @@
+{
+  "train": {
+    "source_session": "capture-20261019T021351Z-d5629ca7",
+    "included": 26,
+    "excluded": [
+      {
+        "ordinal": 17,
+        "sample_id": "capture-20261019T021351Z-d5629ca7-17-3895f9d9",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 18,
+        "sample_id": "capture-20261019T021351Z-d5629ca7-18-c6e67a3d",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 21,
+        "sample_id": "capture-20261019T021351Z-d5629ca7-21-e5ef872f",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 22,
+        "sample_id": "capture-20261019T021351Z-d5629ca7-22-303b0ca4",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      }
+    ]
+  },
+  "validation": {
+    "source_session": "capture-20261018T153409Z-d2e4ff9b",
+    "included": 9,
+    "excluded": [
+      {
+        "ordinal": 1,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-01-dc2d1cf1",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 2,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-02-9ad72fe2",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 3,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-03-2717b3d6",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 4,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-04-8ec9f75f",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 5,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-05-768f68bb",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 6,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-06-8a49a5e6",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 7,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-07-5c1aa6c6",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 8,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-08-9420ca45",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 9,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-09-7fdb32e9",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 10,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-10-d0ec6b61",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 11,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-11-85bdb097",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 12,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-12-bfb2758e",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 13,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-13-fb847f13",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 14,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-14-26b3c937",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 15,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-15-ded97a9f",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 16,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-16-833362ad",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 17,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-17-6f680623",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 18,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-18-f907c977",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 19,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-19-a72cdbba",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 20,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-20-678b2b4a",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      },
+      {
+        "ordinal": 26,
+        "sample_id": "capture-20261018T153409Z-d2e4ff9b-26-9cf69f96",
+        "reason": "conservative pilot exclusion: residual fringe or edge/background in reviewed ROI"
+      }
+    ]
+  },
+  "scope": "Visual pilot triage; no automatic semantic hair segmentation; not a final identity benchmark"
+}

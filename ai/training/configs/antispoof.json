@@ -1,0 +1,11 @@
+{
+  "task": "antispoof",
+  "optional_feature": true,
+  "training_status": "blocked_pending_consented_live_and_attack_data_plus_compatible_checkpoint",
+  "upstream": "https://github.com/minivision-ai/Silent-Face-Anti-Spoofing",
+  "label_contract": "verify the exact upstream commit's three-class training loader before mapping live/print/screen labels",
+  "split_groups": ["subject_id", "capture_session_id", "video_id", "presentation_device_id", "source_id"],
+  "required_metrics": ["APCER", "BPCER", "ACER", "per-attack false accept"],
+  "application_status": "not integrated; current API reports liveness=not_implemented",
+  "data_contract": "manifests/antispoof.jsonl.example"
+}

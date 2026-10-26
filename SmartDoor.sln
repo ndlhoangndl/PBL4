@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC9ABBAA-63B3-4E54-BD01-F1203D1D9FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Core", "src\SmartDoor.Core\SmartDoor.Core.csproj", "{27065D25-3B5D-4A8C-A6F4-D426862E8583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Infrastructure", "src\SmartDoor.Infrastructure\SmartDoor.Infrastructure.csproj", "{3200C2DE-86F4-49F6-852D-670759344DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Desktop", "src\SmartDoor.Desktop\SmartDoor.Desktop.csproj", "{702C3854-935D-428E-A733-EB16F9A6F2BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D6B68BC5-9C84-4307-8C6A-2E35170C48FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDoor.Tests", "tests\SmartDoor.Tests\SmartDoor.Tests.csproj", "{B5CB85F3-217A-44D6-BBFF-3450E9508AC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27065D25-3B5D-4A8C-A6F4-D426862E8583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27065D25-3B5D-4A8C-A6F4-D426862E8583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27065D25-3B5D-4A8C-A6F4-D426862E8583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27065D25-3B5D-4A8C-A6F4-D426862E8583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3200C2DE-86F4-49F6-852D-670759344DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3200C2DE-86F4-49F6-852D-670759344DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3200C2DE-86F4-49F6-852D-670759344DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3200C2DE-86F4-49F6-852D-670759344DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702C3854-935D-428E-A733-EB16F9A6F2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702C3854-935D-428E-A733-EB16F9A6F2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702C3854-935D-428E-A733-EB16F9A6F2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702C3854-935D-428E-A733-EB16F9A6F2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CB85F3-217A-44D6-BBFF-3450E9508AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CB85F3-217A-44D6-BBFF-3450E9508AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CB85F3-217A-44D6-BBFF-3450E9508AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CB85F3-217A-44D6-BBFF-3450E9508AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27065D25-3B5D-4A8C-A6F4-D426862E8583} = {DC9ABBAA-63B3-4E54-BD01-F1203D1D9FF5}
+		{3200C2DE-86F4-49F6-852D-670759344DE1} = {DC9ABBAA-63B3-4E54-BD01-F1203D1D9FF5}
+		{702C3854-935D-428E-A733-EB16F9A6F2BE} = {DC9ABBAA-63B3-4E54-BD01-F1203D1D9FF5}
+		{B5CB85F3-217A-44D6-BBFF-3450E9508AC2} = {D6B68BC5-9C84-4307-8C6A-2E35170C48FF}
+	EndGlobalSection
+EndGlobal

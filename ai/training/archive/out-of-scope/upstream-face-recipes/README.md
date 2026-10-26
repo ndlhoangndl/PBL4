@@ -1,0 +1,1 @@
+Archived reference-only YuNet/SFace recipe files. SmartDoor face training currently uses its own architectures in pbl4_training/door_models.py; these configs/dependency lists are not used by that pipeline. Runtime ONNX files remain in ai/models until reviewed replacements exist.
