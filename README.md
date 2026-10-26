@@ -44,6 +44,17 @@ Lần chạy đầu, EF Core tạo database/schema rỗng nếu tài khoản Win
 
 Mock metadata không được giữ sau khi đóng ứng dụng. Lần chạy lại, kiểm tra đồng bộ sẽ đánh dấu mẫu Mock mất đồng bộ; đăng ký lại metadata để thử mặt Mock. SQL vẫn giữ người dùng và lịch sử.
 
+## Thu ảnh khuôn mặt để chuẩn bị train
+
+> Công cụ thu ảnh là chương trình riêng, không đăng ký người dùng vào ứng dụng và không tự train model.
+
+1. Kết nối laptop và ESP32-CAM vào cùng mạng Wi‑Fi 2,4 GHz. Sau khi reset board, lấy IP mới trong Serial Monitor (`Camera Ready! Use 'http://<IP>' to connect`). Nếu IP đổi, cập nhật ô **URL stream ESP32** thành `http://<IP>:81/stream`.
+2. Mở `scripts/Collect-Faces-Person-002.cmd`, `...003.cmd` hoặc `...004.cmd` cho từng bạn. Trước khi bật camera, kiểm tra ô **Mã người**; nếu chưa đúng, nhập lần lượt `person-002`, `person-003`, `person-004` để không gộp dữ liệu.
+3. Mỗi người chụp 50 ảnh theo hướng dẫn trong cửa sổ: 20 chính diện, 10 hơi quay trái, 10 hơi quay phải, 5 hơi cúi và 5 hơi ngẩng. Mỗi ảnh cần xem lại, xác nhận rồi mới lưu.
+4. Ảnh gốc nằm trong `ai/datasets/face-capture/<mã-người>/<buổi>/images/`. Đây là dữ liệu thô của một buổi, chưa có box, landmark hay nhãn chống giả mạo; cần rà soát/gán nhãn trước khi train. Không chia ngẫu nhiên ảnh trong cùng buổi thành train/validation/test.
+
+Nếu luồng bị giật, trong trang ESP32 thử **SVGA (800×600)** và **Quality 12**; nếu cần giảm tải thêm, thử VGA hoặc Quality 15. Khi dùng hotspot, trang camera chỉ truy cập được nếu mạng cho phép laptop và ESP32 liên lạc nội bộ. Hướng dẫn đầy đủ ở `ai/training/FACE_CAPTURE.md`.
+
 Đổi tên làm mất đồng bộ vì API Python không có endpoint đổi tên riêng; **Thay bộ mẫu…** để cập nhật tên ở Python. Thay mẫu và xóa đều có xác nhận. SQL đánh dấu chưa đồng bộ trước khi gọi AI; lỗi bất kỳ phía nào không được báo hoàn tất và không cho xác thực mặt. Muốn xóa mẫu phải chọn đúng chế độ đã đăng ký mẫu; xóa trong chế độ khác sẽ chặn quyền và yêu cầu chuyển về backend tương ứng.
 
 ## Chạy AI thật

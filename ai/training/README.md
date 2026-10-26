@@ -19,7 +19,7 @@ The app currently loads YuNet, SFace, and Whisper Base from `ai/models`. Those f
 
 ## Collect and review data
 
-- Webcam: run `scripts/Collect-Faces.cmd`; for identities 2–4 use `scripts/Collect-Faces-Person-002.cmd`, `scripts/Collect-Faces-Person-003.cmd`, and `scripts/Collect-Faces-Person-004.cmd`. Follow [FACE_CAPTURE.md](FACE_CAPTURE.md).
+- Face capture: use the ESP32 stream or a USB webcam from `scripts/Collect-Faces.cmd`; the person-specific launchers are `scripts/Collect-Faces-Person-002.cmd`, `scripts/Collect-Faces-Person-003.cmd`, and `scripts/Collect-Faces-Person-004.cmd`. Each session guides 50 photos (20 front, 10 left, 10 right, 5 down, 5 up). Confirm the displayed identity code before starting; update the ESP32 stream URL when its DHCP address changes. The preview reader discards stale frames to reduce display delay. For ESP32 lag, try SVGA 800×600 and JPEG Quality 12. Follow [FACE_CAPTURE.md](FACE_CAPTURE.md).
 - Audio: run `scripts/Collect-Voice.cmd`; follow [VOICE_CAPTURE.md](VOICE_CAPTURE.md). Audio labels must be checked by listening; collect multiple speakers reading at slow, normal and fast rates.
 - Face identity and anti-spoof data require reviewed forehead-to-chin regions. Keep raw data local and out of Git.
 
